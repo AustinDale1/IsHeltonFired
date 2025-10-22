@@ -1,10 +1,56 @@
 body {
-  font-family: sans-serif;
   text-align: center;
-  padding-top: 100px;
-  background: #f2f2f2;
+  background: #fffdf2;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #111;
 }
-button {
-  padding: 10px 20px;
-  font-size: 16px;
+
+.main {
+  margin-top: 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.side-img {
+  width: 60px;
+  transform: rotate(-10deg);
+}
+
+.side-img.right {
+  transform: rotate(15deg);
+}
+
+.handle {
+  font-size: 1.5rem;
+  color: navy;
+  text-shadow: 1px 1px #aaa;
+}
+
+.no {
+  font-size: 8rem;
+  color: red;
+  -webkit-text-stroke: 2px black;
+  text-stroke: 2px black;
+  margin: 40px 0 10px;
+}
+
+.days {
+  font-size: 1rem;
+  margin-bottom: 200px;
+}
+
+footer {
+  font-size: 0.9rem;
+  color: #d00;
+  margin-top: 100px;
+}
+
+footer a {
+  color: blue;
+  text-decoration: underline wavy;
 }
